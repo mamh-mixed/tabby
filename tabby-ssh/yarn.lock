@@ -14,20 +14,12 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.0.1.tgz#70cedfda26af7a2ca073fdcc9beb2fff4aa693f8"
   integrity sha512-hBOx4SUlEPKwRi6PrXuTGw1z6lz0fjsibcWCM378YxsSu/6+C30L6CR49zIBKHiwNWCYIcOLjg4OHKZaFeLAug==
 
-"@types/ssh2-streams@*":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@types/ssh2-streams/-/ssh2-streams-0.1.8.tgz#142af404dae059931aea7fcd1511b5478964feb6"
-  integrity sha512-I7gixRPUvVIyJuCEvnmhr3KvA2dC0639kKswqD4H5b4/FOcnPtNU+qWLiXdKIqqX9twUvi5j0U1mwKE5CUsrfA==
+"@types/ssh2@^1.11.6":
+  version "1.11.6"
+  resolved "https://registry.yarnpkg.com/@types/ssh2/-/ssh2-1.11.6.tgz#c114d15a3cfd2ba2f7ef219a2020c44f0fb8a01b"
+  integrity sha512-8Mf6bhzYYBLEB/G6COux7DS/F5bCWwojv/qFo2yH/e4cLzAavJnxvFXrYW59iKfXdhG6OmzJcXDasgOb/s0rxw==
   dependencies:
     "@types/node" "*"
-
-"@types/ssh2@^0.5.46":
-  version "0.5.52"
-  resolved "https://registry.yarnpkg.com/@types/ssh2/-/ssh2-0.5.52.tgz#9dbd8084e2a976e551d5e5e70b978ed8b5965741"
-  integrity sha512-lbLLlXxdCZOSJMCInKH2+9V/77ET2J6NPQHpFI0kda61Dd1KglJs+fPQBchizmzYSOJBgdTajhPqBO1xxLywvg==
-  dependencies:
-    "@types/node" "*"
-    "@types/ssh2-streams" "*"
 
 ansi-colors@^4.1.1:
   version "4.1.3"
@@ -258,9 +250,10 @@ sprintf@0.1.x:
   resolved "https://registry.yarnpkg.com/sprintf/-/sprintf-0.1.5.tgz#8f83e39a9317c1a502cb7db8050e51c679f6edcf"
   integrity sha1-j4PjmpMXwaUCy324BQ5Rxnn27c8=
 
-sshpk@Eugeny/node-sshpk#d92ddb8def1778e876703f90cd6ff2c90900f390:
-  version "1.16.1"
-  resolved "https://codeload.github.com/Eugeny/node-sshpk/tar.gz/d92ddb8def1778e876703f90cd6ff2c90900f390"
+sshpk@Eugeny/node-sshpk#c2b71d1243714d2daf0988f84c3323d180817136:
+  version "1.18.0"
+  uid c2b71d1243714d2daf0988f84c3323d180817136
+  resolved "https://codeload.github.com/Eugeny/node-sshpk/tar.gz/c2b71d1243714d2daf0988f84c3323d180817136"
   dependencies:
     asn1 "~0.2.3"
     assert-plus "^1.0.0"
